@@ -1,6 +1,5 @@
 package EmmaTasks.VictoriaP;
 
 public class Task1 {
-
-    //added one new cool thing
+   // need to check codingBat  and sove some tasks
 }
