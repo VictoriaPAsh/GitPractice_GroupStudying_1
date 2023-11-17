@@ -4,7 +4,6 @@ public class Task1_OddEven {
     public static void main(String[] args) {
 
         System.out.println(oddOrEven(10));
-
     }
 
     public static String oddOrEven(int num){
@@ -17,4 +16,5 @@ public class Task1_OddEven {
         return result;
 
     }
+
 }

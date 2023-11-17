@@ -7,6 +7,7 @@ public class Task2_DivideWithout {
         int num2 = 3;
 
         divide(num1,num2);
+
     }
 
     public static void divide(int n1, int n2){
@@ -25,5 +26,6 @@ public class Task2_DivideWithout {
         System.out.println(result +"." +remainder);
 
     }
+
 
 }

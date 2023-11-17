@@ -21,7 +21,6 @@ public class Task3_Finra {
             } else {
                 System.out.println(a);
             }
-
         }
     }
 }
