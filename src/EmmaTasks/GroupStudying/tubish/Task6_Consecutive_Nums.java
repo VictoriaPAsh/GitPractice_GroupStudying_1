@@ -4,29 +4,51 @@ public class Task6_Consecutive_Nums {
 
     public static void main(String[] args) {
         consecutiveNums(17);
+        consecutiveNumsTernary(17);
     }
+
     public static void consecutiveNums(int m) {
 
-        for (int n = 1; n <= m; n++){
-            if(n%2==0 && (n&3)==0 && n%5==0){
+        for (int n = 1; n <= m; n++) {
+            if (n % 2 == 0 && (n & 3) == 0 && n % 5 == 0) {
                 System.out.println("CodilityTestCoders");
-            }else if((n%2)==0&& (n%3)==0) {
+            } else if ((n % 2) == 0 && (n % 3) == 0) {
                 System.out.println("CodilityTest");
-            }else if (n%2==0 && n%5==0){
+            } else if (n % 2 == 0 && n % 5 == 0) {
                 System.out.println("CodilityCoders");
-            }else if(n%3==0 && n%5==0){
+            } else if (n % 3 == 0 && n % 5 == 0) {
                 System.out.println("TestCoders");
-            }else if (n%2==0 ){
+            } else if (n % 2 == 0) {
                 System.out.println("Codility");
-            }else if(n%3==0){
+            } else if (n % 3 == 0) {
                 System.out.println("Test");
-            }else if(n%5==0){
+            } else if (n % 5 == 0) {
                 System.out.println("Coders");
-            }else{
+            } else {
                 System.out.println(n);
             }
         }
     }
+//second solution
+    public static void consecutiveNumsTernary(int num) {
+
+        for (int n = 1; n <= num; n++) {
+            System.out.println(
+                    (n % 2 == 0 && (n & 3) == 0 && n % 5 == 0) ? "CodilityTestCoders" :
+                            (n % 2 == 0 && n % 3 == 0) ? "CodilityTest" :
+                                    (n % 2 == 0 && n % 5 == 0) ? "CodilityCoders" :
+                                            (n % 3 == 0 && n % 5 == 0) ? "TestCoders" :
+                                                    (n % 2 == 0) ? "Codility" :
+                                                            (n % 3 == 0) ? "Test" :
+                                                                    (n % 5 == 0) ? "Coders" :
+                                                                            Integer.toString(n));
+
+        }
+
+    }
+
+}
+
 
 
 
@@ -55,6 +77,3 @@ TestCoders
 Codility
 17
  */
-
-
-}
