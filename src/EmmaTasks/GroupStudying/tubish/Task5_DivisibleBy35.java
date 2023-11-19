@@ -1,6 +1,6 @@
 package EmmaTasks.GroupStudying.tubish;
 
-public interface Task5_DivisibleBy35 {
+public class Task5_DivisibleBy35 {
 
     public static void main(String[] args) {
         divisibleBy();
