@@ -5,9 +5,9 @@ public class Task6_Consecutive_Nums {
     public static void main(String[] args) {
         consecutiveNums(17);
     }
-    public static void consecutiveNums(int num) {
+    public static void consecutiveNums(int m) {
 
-        for (int n = 1; n <= num; n++){
+        for (int n = 1; n <= m; n++){
             if(n%2==0 && (n&3)==0 && n%5==0){
                 System.out.println("CodilityTestCoders");
             }else if((n%2)==0&& (n%3)==0) {
