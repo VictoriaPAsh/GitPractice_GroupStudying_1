@@ -1,6 +1,6 @@
 package EmmaTasks.GroupStudying.tubish;
 
-public class OddOrEven {
+public class Task2_OddOrEven {
     public static void main(String[] args) {
         System.out.println("tugbaOddOrEven(11) = " + tugbaOddOrEven(10));
     }

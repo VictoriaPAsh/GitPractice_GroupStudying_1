@@ -1,6 +1,6 @@
 package EmmaTasks.GroupStudying.tubish;
 
-public class DivideWithoutOperator {
+public class Task1_DivideWithoutOperator {
     public static void main(String[] args) {
 
         tugbaDivide(20,3);

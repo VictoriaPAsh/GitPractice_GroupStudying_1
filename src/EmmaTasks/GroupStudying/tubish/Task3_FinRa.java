@@ -1,6 +1,6 @@
 package EmmaTasks.GroupStudying.tubish;
 
-public class FinRa {
+public class Task3_FinRa {
     public static void main(String[] args) {
         tugbaFinra();
     }
