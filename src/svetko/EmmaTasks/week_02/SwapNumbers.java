@@ -7,8 +7,12 @@ public class SwapNumbers {
         int x = 15;
         int y = 20;
 
-        System.out.println("x = " + y);
-        System.out.println("y = " + x);
+        x = x + y;
+        y = x - y;
+        x = x - y;
+
+        System.out.println("x = " + x);
+        System.out.println("y = " + y);
 
 
     }
