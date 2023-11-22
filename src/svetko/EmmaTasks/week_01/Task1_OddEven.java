@@ -1,4 +1,4 @@
-package EmmaTasks.GroupStudying;
+package svetko.EmmaTasks.week_01;
 
 public class Task1_OddEven {
     public static void main(String[] args) {

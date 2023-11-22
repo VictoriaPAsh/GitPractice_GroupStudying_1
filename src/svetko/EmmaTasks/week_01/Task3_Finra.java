@@ -1,8 +1,11 @@
-package EmmaTasks.GroupStudying;
+package svetko.EmmaTasks.week_01;
 
 public class Task3_Finra {
     public static void main(String[] args) {
+
         finra();
+
+
     }
 
     public static void finra() {
