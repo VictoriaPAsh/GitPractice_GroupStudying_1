@@ -3,16 +3,16 @@ package EmmaTasks.GroupStudying.tubish;
 public class Task6_Consecutive_Nums {
 
     public static void main(String[] args) {
-        consecutiveNums(17);
-        consecutiveNumsTernary(17);
+        consecutiveNums(30);
+        consecutiveNumsTernary(30);
     }
 
     public static void consecutiveNums(int m) {
 
         for (int n = 1; n <= m; n++) {
-            if (n % 2 == 0 && (n & 3) == 0 && n % 5 == 0) {
+            if ((n % 2 == 0) && (n % 3 == 0) && (n % 5 == 0)) {
                 System.out.println("CodilityTestCoders");
-            } else if ((n % 2) == 0 && (n % 3) == 0) {
+            } else if ((n % 2 == 0) && (n % 3 == 0)) {
                 System.out.println("CodilityTest");
             } else if (n % 2 == 0 && n % 5 == 0) {
                 System.out.println("CodilityCoders");
@@ -34,7 +34,7 @@ public class Task6_Consecutive_Nums {
 
         for (int n = 1; n <= num; n++) {
             System.out.println(
-                    (n % 2 == 0 && (n & 3) == 0 && n % 5 == 0) ? "CodilityTestCoders" :
+                    (n % 2 == 0 && (n % 3) == 0 && n % 5 == 0) ? "CodilityTestCoders" :
                             (n % 2 == 0 && n % 3 == 0) ? "CodilityTest" :
                                     (n % 2 == 0 && n % 5 == 0) ? "CodilityCoders" :
                                             (n % 3 == 0 && n % 5 == 0) ? "TestCoders" :
