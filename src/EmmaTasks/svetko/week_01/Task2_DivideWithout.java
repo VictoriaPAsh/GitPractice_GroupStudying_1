@@ -1,4 +1,4 @@
-package svetko.EmmaTasks.week_01;
+package EmmaTasks.svetko.week_01;
 
 public class Task2_DivideWithout {
     public static void main(String[] args) {

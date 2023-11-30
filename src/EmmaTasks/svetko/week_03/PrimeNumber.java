@@ -1,4 +1,4 @@
-package svetko.EmmaTasks.week_03;
+package EmmaTasks.svetko.week_03;
 
 public class PrimeNumber {
 
@@ -6,9 +6,10 @@ public class PrimeNumber {
 
 
         System.out.println(isPrime(9));
-        System.out.println(isPrime(18));
+        System.out.println(isPrime(5));
         System.out.println(isPrime(35));
-        System.out.println(isPrime(4));
+        System.out.println(isPrime(11));
+        System.out.println(isPrime(9));
 
 
     }

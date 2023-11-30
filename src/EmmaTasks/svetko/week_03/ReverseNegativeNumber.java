@@ -1,4 +1,4 @@
-package svetko.EmmaTasks.week_03;
+package EmmaTasks.svetko.week_03;
 
 
 public class ReverseNegativeNumber {
