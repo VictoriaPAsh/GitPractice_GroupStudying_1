@@ -1,4 +1,4 @@
-package EmmaTasks.VictoriaP.week_01;
+package VictoriaP.week_01;
 
 public class Task1 {
 
