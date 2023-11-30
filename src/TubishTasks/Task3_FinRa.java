@@ -1,4 +1,4 @@
-package EmmaTasks.GroupStudying.tubish;
+package TubishTasks;
 
 public class Task3_FinRa {
     public static void main(String[] args) {

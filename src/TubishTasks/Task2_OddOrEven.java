@@ -1,4 +1,4 @@
-package EmmaTasks.GroupStudying.tubish;
+package TubishTasks;
 
 public class Task2_OddOrEven {
     public static void main(String[] args) {

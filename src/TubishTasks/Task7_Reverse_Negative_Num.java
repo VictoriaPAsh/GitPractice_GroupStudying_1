@@ -1,4 +1,4 @@
-package EmmaTasks.GroupStudying.tubish;
+package TubishTasks;
 
 import java.util.Scanner;
 

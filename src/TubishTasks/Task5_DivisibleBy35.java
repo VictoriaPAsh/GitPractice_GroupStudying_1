@@ -1,4 +1,4 @@
-package EmmaTasks.GroupStudying.tubish;
+package TubishTasks;
 
 public class Task5_DivisibleBy35 {
 

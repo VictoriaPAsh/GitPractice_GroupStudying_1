@@ -1,4 +1,4 @@
-package EmmaTasks.GroupStudying.tubish;
+package TubishTasks;
 
 public class Task1_DivideWithoutOperator {
     public static void main(String[] args) {
