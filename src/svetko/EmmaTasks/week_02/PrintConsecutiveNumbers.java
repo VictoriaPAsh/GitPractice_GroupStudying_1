@@ -1,4 +1,4 @@
-package EmmaTasks.svetko.week_02;
+package svetko.EmmaTasks.week_02;
 
 public class PrintConsecutiveNumbers {
 
