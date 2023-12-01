@@ -1,4 +1,4 @@
-package EmmaTasks.Diana.week2;
+package Diana;
 
 public class DivisibleByThreeFiveFifteen {
 

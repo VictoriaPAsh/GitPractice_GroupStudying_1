@@ -1,4 +1,4 @@
-package EmmaTasks.Diana.week1;
+package Diana;
 
 public class DivideWithoutOperator {
 

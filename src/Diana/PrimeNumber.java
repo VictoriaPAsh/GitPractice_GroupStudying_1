@@ -1,4 +1,4 @@
-package EmmaTasks.Diana.week3;
+package Diana;
 
 public class PrimeNumber {
     public static void primeNum(int n){
