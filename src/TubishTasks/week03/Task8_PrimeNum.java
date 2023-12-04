@@ -1,6 +1,6 @@
-package TubishTasks;
+package TubishTasks.week03;
 
-public class Task8_Prime_Num {
+public class Task8_PrimeNum {
 
 // 2 3 5 7  only prime digits and all the other numbers are made out multiplication prime numbers
 

@@ -1,4 +1,4 @@
-package TubishTasks;
+package TubishTasks.week01;
 
 public class Task2_OddOrEven {
     public static void main(String[] args) {

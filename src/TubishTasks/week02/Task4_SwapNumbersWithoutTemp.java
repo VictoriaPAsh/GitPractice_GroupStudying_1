@@ -1,4 +1,4 @@
-package TubishTasks;
+package TubishTasks.week02;
 
 public class Task4_SwapNumbersWithoutTemp {
 
