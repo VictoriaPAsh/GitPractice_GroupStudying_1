@@ -1,6 +1,6 @@
-package TubishTasks;
+package TubishTasks.week02;
 
-public class Task6_Consecutive_Nums {
+public class Task6_ConsecutiveNums {
 
     public static void main(String[] args) {
         consecutiveNums(30);

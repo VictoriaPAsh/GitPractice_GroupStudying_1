@@ -1,8 +1,8 @@
-package TubishTasks;
+package TubishTasks.week03;
 
 import java.util.Scanner;
 
-public class Task7_Reverse_Negative_Num {
+public class Task7_ReverseNegativeNum {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
