@@ -3,21 +3,17 @@ package svetko.EmmaTasks.week_05;
 
 public class ReverseString {
 
-
     public static void main(String[] args) {
 
         String str = "ABCD";
 
         System.out.println("Reversed: " + reverse(str));
 
-
     }
 
     public static String reverse(String str) {
 
-
         String reversed = "";
-
 
         for (int i = str.length()-1; i >= 0; i--) {
 
