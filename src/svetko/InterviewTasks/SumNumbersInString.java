@@ -14,6 +14,38 @@ public class SumNumbersInString {
         int sum = 0;
         String num = "";
 
+
+        for (int i = 0; i < str.length(); i++) {
+
+            char each = str.charAt(i);
+
+            if (Character.isDigit(each)) {
+                num += each;
+
+                if (i == str.length() - 1 || !Character.isDigit(str.charAt(i + 1))) {
+                    sum += Integer.parseInt(num);
+                    num = "";
+                }
+
+
+            }
+
+
+        }
+        System.out.println("sum = " + sum);
+
+
+    }
+
+
+}
+
+  /*
+        String str = "jav45ai15sgre1at82";
+
+        int sum = 0;
+        String num = "";
+
         List<String> list = new ArrayList<>();
 
         for (int i = 0; i < str.length(); i++) {
@@ -40,33 +72,8 @@ public class SumNumbersInString {
 
         System.out.println("sum = " + sum);
 
-
-    }
-
-
-}
-
- /*
-                for (int i = 0; i < str.length(); i++) {
-
-                    char each = str.charAt(i);
-
-                    if (Character.isDigit(each)) {
-                        num += each;
-
-                        if (i == str.length() - 1 || !Character.isDigit(str.charAt(i + 1))) {
-                            sum += Integer.parseInt(num);
-                            num = "";
-                        }
-
-
-                    }
-
-
-                }
-               // System.out.println("sum = " + sum);
-
          */
+
 
 
 
