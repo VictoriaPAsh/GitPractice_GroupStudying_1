@@ -1,7 +1,9 @@
 package svetko.InterviewTasks;
 
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class SumNumbersInString {
 
@@ -12,6 +14,7 @@ public class SumNumbersInString {
         int sum = 0;
         String num = "";
 
+        List<String> list = new ArrayList<>();
 
         for (int i = 0; i < str.length(); i++) {
 
@@ -19,17 +22,22 @@ public class SumNumbersInString {
 
             if (Character.isDigit(each)) {
                 num += each;
-
-                if (i == str.length() - 1 || !Character.isDigit(str.charAt(i + 1))) {
-                    sum += Integer.parseInt(num);
-                    num = "";
-                }
-
+                list.add(num);
+                continue;
 
             }
-
+            num = "";
 
         }
+
+        for (int i = 0; i < list.size(); i++) {
+
+            String each = list.get(i);
+
+            sum += Integer.parseInt(each);
+
+        }
+
         System.out.println("sum = " + sum);
 
 
@@ -37,6 +45,31 @@ public class SumNumbersInString {
 
 
 }
+
+ /*
+                for (int i = 0; i < str.length(); i++) {
+
+                    char each = str.charAt(i);
+
+                    if (Character.isDigit(each)) {
+                        num += each;
+
+                        if (i == str.length() - 1 || !Character.isDigit(str.charAt(i + 1))) {
+                            sum += Integer.parseInt(num);
+                            num = "";
+                        }
+
+
+                    }
+
+
+                }
+               // System.out.println("sum = " + sum);
+
+         */
+
+
+
 /*
 Create a program that will take any String and print the total sum of all the numbers in the
 String.
