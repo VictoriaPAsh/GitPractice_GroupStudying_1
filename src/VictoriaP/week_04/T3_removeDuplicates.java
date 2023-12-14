@@ -1,8 +1,14 @@
 package VictoriaP.week_04;
 
+import java.util.Arrays;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
 public class T3_removeDuplicates {
     public static void main(String[] args) {
         System.out.println(removeDup("AAAABBBBSSSS"));
+        System.out.println(removeDup2("AAAABBBBSSSS"));
+
     }
     public static String removeDup(String str) {
         //abbbbss -> a1b3s2
@@ -21,6 +27,19 @@ public class T3_removeDuplicates {
         }
         return result;
     }
+    public static String removeDup2(String str){
+        //Set
+        String[] characters = str.split("");
+        Set<String> noDup = new LinkedHashSet<>(Arrays.asList(characters));
+        String result ="";
+        for (String each : noDup) {
+            result+=each;
+        }
+        return result;
+
+    }
+
+
 }
 /*
 String -- Remove Duplicates
