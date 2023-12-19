@@ -9,36 +9,52 @@ public class RemoveDuplicates {
 
         int[] arr = {3, 3, 4, 5, 1, 2, 6, 2, 5, 4, 2, 1, 3};
 
-//        Set<Integer> removedDup = new LinkedHashSet<>();
-//
-//        for (int each : arr) {
-//            removedDup.add(each);
-//
-//        }
-//
-//        int[] uniqueArr = new int[removedDup.size()];
-//        int index = 0;
-//
-//        for (int each : removedDup) {
-//
-//            uniqueArr[index++] = each;
-//
-//        }
-//
-//        System.out.println(Arrays.toString(uniqueArr));
-
         ArrayList<Integer> remD = new ArrayList<>();
+
         for (int each : arr) {
-            if (!remD.contains(each))
+            if (!remD.contains(each)) {
                 remD.add(each);
+            }
         }
-        System.out.println(remD);
+
+        //  System.out.println(remD);
+
+        int[] noDuplicates = new int[remD.size()];
+        int index = 0;
+
+        for (Integer each : remD) {
+            noDuplicates[index++] = each;
+
+        }
+
+        System.out.println(Arrays.toString(noDuplicates));
 
 
     }
 
 
 }
+
+/*
+  Set<Integer> removedDup = new LinkedHashSet<>();
+
+        for (int each : arr) {
+            removedDup.add(each);
+
+        }
+
+        int[] uniqueArr = new int[removedDup.size()];
+        int index = 0;
+
+        for (int each : removedDup) {
+
+            uniqueArr[index++] = each;
+
+        }
+
+        System.out.println(Arrays.toString(uniqueArr));
+ */
+
 /*
 
   Remove Duplicates
