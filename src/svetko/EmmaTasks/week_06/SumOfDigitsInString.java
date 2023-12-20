@@ -13,17 +13,17 @@ public class SumOfDigitsInString {
 
     }
 
-    public static void sumOfDigits(String str){
+    public static void sumOfDigits(String str) {
 
         int sum = 0;
 
         List<String> list = new ArrayList<>();
 
-        for (int i=0; i <str.length() ; i++) {
+        for (int i = 0; i < str.length(); i++) {
 
             char each = str.charAt(i);
 
-            if(Character.isDigit(each)){
+            if (Character.isDigit(each)) {
                 list.add(each + "");
             }
 
@@ -31,14 +31,14 @@ public class SumOfDigitsInString {
 
         for (int i = 0; i < list.size(); i++) {
 
-            sum+=Integer.parseInt(list.get(i));;
+            sum += Integer.parseInt(list.get(i));
+            ;
         }
 
         System.out.println("sum = " + sum);
 
 
     }
-
 
 
 }
