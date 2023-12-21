@@ -25,6 +25,7 @@ public class SumOfDigitsInString {
 
             if (Character.isDigit(each)) {
                 list.add(each + "");
+
             }
 
         }
