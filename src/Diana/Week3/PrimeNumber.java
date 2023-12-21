@@ -1,4 +1,4 @@
-package Diana;
+package Diana.Week3;
 
 public class PrimeNumber {
     public static void primeNum(int n){

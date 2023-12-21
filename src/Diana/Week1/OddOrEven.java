@@ -1,4 +1,4 @@
-package Diana;
+package Diana.Week1;
 
 public class OddOrEven {
 
