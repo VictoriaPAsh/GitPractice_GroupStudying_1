@@ -1,4 +1,4 @@
-package Diana;
+package Diana.Week2;
 
 public class DivisibleByThreeFiveFifteen {
 
