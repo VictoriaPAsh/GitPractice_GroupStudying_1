@@ -1,6 +1,6 @@
-package EmmaTasks.GroupStudying;
+package EmmaTasks.Grump4;
 
-public class Task3_Finra {
+public class FinRa {
     public static void main(String[] args) {
         finra();
     }
