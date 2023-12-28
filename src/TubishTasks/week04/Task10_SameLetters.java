@@ -11,7 +11,7 @@ Ex: same("abc", "cab"); -> true
 same("abc", "abb"); -> false:
      */
     public static void main(String[] args) {
-        System.out.println("sameLetter(\"abcc\",\"abcd\") = " + sameLetter("abcc", "abcdb"));
+        System.out.println("sameLetter(\"abcc\",\"abcd\") = " + sameLetter("abcc", "abcc"));
     }
     public static boolean sameLetter(String str1, String str2) {
 
