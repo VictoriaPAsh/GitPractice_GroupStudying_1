@@ -22,7 +22,7 @@ Ex: FrequencyOfChars("AAABBCDD") ==> A3B2C1D2
             result += entry.getKey() + entry.getValue();
         }
 
-        System.out.println(result);
+        System.out.println("result = " + result);
     }
 
     public static void frequencyOfChar(String str) {
@@ -38,7 +38,7 @@ Ex: FrequencyOfChars("AAABBCDD") ==> A3B2C1D2
                 result += "" + str.charAt(i) + count;
             }
         }
-        System.out.println(result);
+        System.out.println("result = " + result);
     }
 
     public static void freqOfChar(String str) {
