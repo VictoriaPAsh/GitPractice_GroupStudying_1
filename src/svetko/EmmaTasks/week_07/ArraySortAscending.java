@@ -11,8 +11,6 @@ public class ArraySortAscending {
         int[] sorted = sortAscending(arr);
 
         System.out.println(Arrays.toString(sorted));
-
-
     }
 
     public static int[] sortAscending(int[] arr) {
