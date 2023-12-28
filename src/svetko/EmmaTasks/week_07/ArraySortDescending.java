@@ -1,6 +1,8 @@
 package svetko.EmmaTasks.week_07;
 
 import java.util.Arrays;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class ArraySortDescending {
 
@@ -11,6 +13,7 @@ public class ArraySortDescending {
         int[] sorted = sortDescending(arr);
 
         System.out.println(Arrays.toString(sorted));
+        System.out.println(Arrays.toString(sortDescending2(arr)));
 
 
     }
@@ -33,6 +36,30 @@ public class ArraySortDescending {
         }
 
         return arr;
+    }
+
+    public static int[] sortDescending2(int[] arr){
+
+        Set<Integer> setDescending = new TreeSet<>();
+
+        for (int each : arr) {
+            setDescending.add(each);
+        }
+
+        int[] arrAscending = new int[setDescending.size()];
+        int index = 0;
+
+        for (Integer eachSet : setDescending) {
+            arrAscending[index++] = eachSet;
+        }
+
+        int[] sortDescending = new int[arrAscending.length];
+
+        for (int i = arrAscending.length - 1, j=0; i >= 0; i--,j++) {
+            sortDescending[j] = arrAscending [i];
+        }
+
+        return sortDescending;
     }
 
 
