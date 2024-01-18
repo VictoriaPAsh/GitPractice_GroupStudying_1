@@ -8,7 +8,6 @@ public class ArrayFindMinimum {
 
         minimumArray(arr);
 
-
     }
 
     public static void minimumArray(int[] arr) {
@@ -23,7 +22,6 @@ public class ArrayFindMinimum {
 
         }
         System.out.println("min = " + min);
-
     }
 
 
