@@ -20,7 +20,6 @@ public static void main(String[] args) {
             if (each!=0){
                 moved[index++]=each;
             }
-
         }
         return moved;
     }
