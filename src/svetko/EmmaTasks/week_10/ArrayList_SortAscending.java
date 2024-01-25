@@ -12,7 +12,7 @@ public class ArrayList_SortAscending {
         ArrayList<Integer> numbers = new ArrayList<>();
         numbers.addAll(Arrays.asList(18, 10, 22, 1, 5, 19));
 
-        System.out.println(sortAscending(numbers));
+       // System.out.println(sortAscending(numbers));
 
         System.out.println(sortAscending2(numbers));
 
