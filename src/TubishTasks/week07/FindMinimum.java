@@ -7,7 +7,6 @@ public class FindMinimum {
 
         System.out.println(minNum(new int[]{3, 5, 1, 5, -1, 5}));
 
-
     }
     public static int minNum(int[] arr){
         int min = arr[0]; // Integer.MAX_VALUE;
