@@ -17,8 +17,8 @@ public class SortTheMap {
         System.out.println("Unsorted = " + map);
         System.out.println();
 
-        System.out.println("Sorted 1 = " + sortByValue(map));
-        //System.out.println("Sorted 2 = " + sortByValue2(map));
+       System.out.println("Sorted 1 = " + sortByValue(map));
+       // System.out.println("Sorted 2 = " + sortByValue2(map));
 
 
     }

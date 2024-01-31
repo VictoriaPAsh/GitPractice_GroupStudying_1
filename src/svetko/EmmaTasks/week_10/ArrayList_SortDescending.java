@@ -13,8 +13,8 @@ public class ArrayList_SortDescending {
         ArrayList<Integer> numbers = new ArrayList<>();
         numbers.addAll(Arrays.asList(18, 10, 22, 1, 5, 19));
 
-       // System.out.println(sortDescending(numbers));
-        System.out.println(sortDescending2(numbers));
+        System.out.println(sortDescending(numbers));
+        //System.out.println(sortDescending2(numbers));
 
     }
 
