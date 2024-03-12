@@ -17,7 +17,9 @@ public class MapMinValue {
 
         int minValue = minMapValue(map);
 
-        System.out.println("minValue = " + minValue);
+       // System.out.println("minValue = " + minValue);
+
+        System.out.println("Collections.min(map.values()) = " + Collections.min(map.values()));
 
     }
 
